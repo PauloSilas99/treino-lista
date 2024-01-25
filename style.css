@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top{
+    padding: 30px;
+    background: rgb(255, 254, 254);
+    box-shadow: 5px 5px 10px grey;
+}
+input{
+    padding: 4px;
+}
+button{
+    padding: 4px;
+    background: rgb(37, 37, 219);
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(37, 37, 219);
+    cursor: pointer;
+}
+.alert{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 80px;
+    margin-left: 120px;
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px;
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    z-index: 1;
+    background: rgb(230, 230, 224);
+    
+}
+.detUsuario{
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(189, 189, 189);
+}
+.alertCorpo{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.btns{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.resultadoAdd{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: -1;
+}
+.newUser{
+    border: solid 1px rgb(190, 190, 190);
+    border-radius: 6px;
+    padding: 5px;
+}
+.newUser:hover{
+    background: rgb(238, 237, 237);
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.icon{
+    width: 10px;
+}
+.dadosEdit{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(189, 187, 187);
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px;
+    position: absolute;
+    z-index: 1;
+    background: rgb(230, 230, 224);
+}
+/* .btnSair{
+    background: rgb(70, 69, 69);
+    border: 1px solid;
+    padding: 8px;
+}
+.btnEdit{
+    background: rgb(187, 187, 1);
+    border: 1px solid;
+    padding: 8px;
+}
+.btnDelet{
+    background: rgb(187, 18, 18);
+    border: 1px solid;
+    padding: 8px;
+} */
+.telaMaior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:rgb(230, 230, 224);
+}
